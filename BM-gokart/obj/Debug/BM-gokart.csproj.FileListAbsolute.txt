@@ -1,0 +1,8 @@
+H:\Asztal fej\BM-gokart\BM-gokart\bin\Debug\BM-gokart.exe.config
+H:\Asztal fej\BM-gokart\BM-gokart\bin\Debug\BM-gokart.exe
+H:\Asztal fej\BM-gokart\BM-gokart\bin\Debug\BM-gokart.pdb
+H:\Asztal fej\BM-gokart\BM-gokart\obj\Debug\BM-gokart.csproj.AssemblyReference.cache
+H:\Asztal fej\BM-gokart\BM-gokart\obj\Debug\BM-gokart.csproj.CoreCompileInputs.cache
+H:\Asztal fej\BM-gokart\BM-gokart\obj\Debug\BM-gokart.exe
+H:\Asztal fej\BM-gokart\BM-gokart\obj\Debug\BM-gokart.pdb
+H:\Asztal fej\BM-gokart\BM-gokart\obj\Debug\BM-gokart.exe.config
