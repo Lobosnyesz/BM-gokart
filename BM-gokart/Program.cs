@@ -28,20 +28,7 @@ namespace BM_gokart
             int range = (DateTime.Today - start).Days;
             return start.AddDays(rnd.Next(range));
         }
-        public static bool elmultBool()
-        {
-            DateTime ma = DateTime.Today;
-            DateTime szuletes = RandomDay();
-            TimeSpan lobos = ma.Subtract(szuletes);
-            if (Convert.ToInt32(lobos) < 18)
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
-        }
+
         static void Main(string[] args)
         {
             /*
@@ -86,11 +73,25 @@ namespace BM_gokart
                 sor = kn.ReadLine();
             }
             kn.Close();
-            bool elmult = elmultBool();
-            Console.WriteLine(RandomDay().ToString("yyyy/MM/dd"));
+
+            bool elmult = false;
+            DateTime ma = DateTime.Today;
+            DateTime szuletes = RandomDay();
+            TimeSpan lobos = ma.Subtract(szuletes);
+            int kor = (int)(lobos.TotalDays / 365.25);
+            if (kor<18)
+            {
+                 elmult = false;
+            }
+            else
+            {
+                elmult = true;
+            }
+
+            Console.WriteLine(szuletes.ToString("yyyy/MM/dd"));
             Console.WriteLine(elmult);
 
-        Console.WriteLine();
+            Console.WriteLine();
             Console.WriteLine("kilépéshez nyomjon meg bármit");
             Console.ReadKey();
         }
